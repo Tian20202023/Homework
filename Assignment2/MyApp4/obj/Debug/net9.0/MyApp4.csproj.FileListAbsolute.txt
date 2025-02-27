@@ -1,0 +1,14 @@
+/Users/ziyue/RiderProjects/Assignment2/MyApp4/bin/Debug/net9.0/MyApp4
+/Users/ziyue/RiderProjects/Assignment2/MyApp4/bin/Debug/net9.0/MyApp4.deps.json
+/Users/ziyue/RiderProjects/Assignment2/MyApp4/bin/Debug/net9.0/MyApp4.runtimeconfig.json
+/Users/ziyue/RiderProjects/Assignment2/MyApp4/bin/Debug/net9.0/MyApp4.dll
+/Users/ziyue/RiderProjects/Assignment2/MyApp4/bin/Debug/net9.0/MyApp4.pdb
+/Users/ziyue/RiderProjects/Assignment2/MyApp4/obj/Debug/net9.0/MyApp4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ziyue/RiderProjects/Assignment2/MyApp4/obj/Debug/net9.0/MyApp4.AssemblyInfoInputs.cache
+/Users/ziyue/RiderProjects/Assignment2/MyApp4/obj/Debug/net9.0/MyApp4.AssemblyInfo.cs
+/Users/ziyue/RiderProjects/Assignment2/MyApp4/obj/Debug/net9.0/MyApp4.csproj.CoreCompileInputs.cache
+/Users/ziyue/RiderProjects/Assignment2/MyApp4/obj/Debug/net9.0/MyApp4.dll
+/Users/ziyue/RiderProjects/Assignment2/MyApp4/obj/Debug/net9.0/refint/MyApp4.dll
+/Users/ziyue/RiderProjects/Assignment2/MyApp4/obj/Debug/net9.0/MyApp4.pdb
+/Users/ziyue/RiderProjects/Assignment2/MyApp4/obj/Debug/net9.0/MyApp4.genruntimeconfig.cache
+/Users/ziyue/RiderProjects/Assignment2/MyApp4/obj/Debug/net9.0/ref/MyApp4.dll

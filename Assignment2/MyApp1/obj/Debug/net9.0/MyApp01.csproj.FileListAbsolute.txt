@@ -1,0 +1,4 @@
+/Users/ziyue/RiderProjects/Assignment2/MyApp01/obj/Debug/net9.0/MyApp01.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ziyue/RiderProjects/Assignment2/MyApp01/obj/Debug/net9.0/MyApp01.AssemblyInfoInputs.cache
+/Users/ziyue/RiderProjects/Assignment2/MyApp01/obj/Debug/net9.0/MyApp01.AssemblyInfo.cs
+/Users/ziyue/RiderProjects/Assignment2/MyApp01/obj/Debug/net9.0/MyApp01.csproj.CoreCompileInputs.cache
