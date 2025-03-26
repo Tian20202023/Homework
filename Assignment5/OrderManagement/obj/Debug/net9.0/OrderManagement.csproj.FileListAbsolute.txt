@@ -1,0 +1,15 @@
+/Users/ziyue/Desktop/homework/Assignment5/OrderManagement/bin/Debug/net9.0/OrderManagement
+/Users/ziyue/Desktop/homework/Assignment5/OrderManagement/bin/Debug/net9.0/OrderManagement.deps.json
+/Users/ziyue/Desktop/homework/Assignment5/OrderManagement/bin/Debug/net9.0/OrderManagement.runtimeconfig.json
+/Users/ziyue/Desktop/homework/Assignment5/OrderManagement/bin/Debug/net9.0/OrderManagement.dll
+/Users/ziyue/Desktop/homework/Assignment5/OrderManagement/bin/Debug/net9.0/OrderManagement.pdb
+/Users/ziyue/Desktop/homework/Assignment5/OrderManagement/obj/Debug/net9.0/OrderManagement.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ziyue/Desktop/homework/Assignment5/OrderManagement/obj/Debug/net9.0/OrderManagement.AssemblyInfoInputs.cache
+/Users/ziyue/Desktop/homework/Assignment5/OrderManagement/obj/Debug/net9.0/OrderManagement.AssemblyInfo.cs
+/Users/ziyue/Desktop/homework/Assignment5/OrderManagement/obj/Debug/net9.0/OrderManagement.csproj.CoreCompileInputs.cache
+/Users/ziyue/Desktop/homework/Assignment5/OrderManagement/obj/Debug/net9.0/OrderManagement.sourcelink.json
+/Users/ziyue/Desktop/homework/Assignment5/OrderManagement/obj/Debug/net9.0/OrderManagement.dll
+/Users/ziyue/Desktop/homework/Assignment5/OrderManagement/obj/Debug/net9.0/refint/OrderManagement.dll
+/Users/ziyue/Desktop/homework/Assignment5/OrderManagement/obj/Debug/net9.0/OrderManagement.pdb
+/Users/ziyue/Desktop/homework/Assignment5/OrderManagement/obj/Debug/net9.0/OrderManagement.genruntimeconfig.cache
+/Users/ziyue/Desktop/homework/Assignment5/OrderManagement/obj/Debug/net9.0/ref/OrderManagement.dll
