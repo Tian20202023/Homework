@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Flash\\Desktop\\Assignment6\\OrderManagement.csproj": {}
+    "C:\\Users\\Flash\\Desktop\\homework\\Assignment6\\OrderManagement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Flash\\Desktop\\Assignment6\\OrderManagement.csproj": {
+    "C:\\Users\\Flash\\Desktop\\homework\\Assignment6\\OrderManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Flash\\Desktop\\Assignment6\\OrderManagement.csproj",
+        "projectUniqueName": "C:\\Users\\Flash\\Desktop\\homework\\Assignment6\\OrderManagement.csproj",
         "projectName": "OrderManagement",
-        "projectPath": "C:\\Users\\Flash\\Desktop\\Assignment6\\OrderManagement.csproj",
+        "projectPath": "C:\\Users\\Flash\\Desktop\\homework\\Assignment6\\OrderManagement.csproj",
         "packagesPath": "C:\\Users\\Flash\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Flash\\Desktop\\Assignment6\\obj\\",
+        "outputPath": "C:\\Users\\Flash\\Desktop\\homework\\Assignment6\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Flash\\AppData\\Roaming\\NuGet\\NuGet.Config"

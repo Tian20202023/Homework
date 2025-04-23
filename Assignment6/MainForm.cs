@@ -132,16 +132,62 @@ public class MainForm : Form
         detailBindingSource.DataMember = "Details";
         detailGridView.DataSource = detailBindingSource;
 
-        // 配置订单表格列
-        orderGridView.Columns.Add("OrderId", "订单号");
+        // 清除所有自动生成的列
+        orderGridView.AutoGenerateColumns = false;
+        detailGridView.AutoGenerateColumns = false;
+        orderGridView.Columns.Clear();
+        detailGridView.Columns.Clear();
 
-        // 配置订单明细表格列
-        detailGridView.Columns.Add("ProductName", "商品名称");
-        detailGridView.Columns.Add("Quantity", "数量");
-        detailGridView.Columns.Add("UnitPrice", "单价");
+        // 配置订单明细表格列（第一个表）
+        detailGridView.Columns.Add(new DataGridViewTextBoxColumn
+        {
+            DataPropertyName = "Product",
+            Name = "Product",
+            HeaderText = "商品"
+        });
+        detailGridView.Columns.Add(new DataGridViewTextBoxColumn
+        {
+            DataPropertyName = "Quantity",
+            Name = "Quantity",
+            HeaderText = "数量"
+        });
+        detailGridView.Columns.Add(new DataGridViewTextBoxColumn
+        {
+            DataPropertyName = "UnitPrice",
+            Name = "UnitPrice",
+            HeaderText = "单价"
+        });
+        detailGridView.Columns.Add(new DataGridViewTextBoxColumn
+        {
+            DataPropertyName = "TotalAmount",
+            Name = "TotalAmount",
+            HeaderText = "总金额"
+        });
+
+        // 配置订单表格列（第二个表）
+        orderGridView.Columns.Add(new DataGridViewTextBoxColumn
+        {
+            DataPropertyName = "OrderDate",
+            Name = "OrderDate",
+            HeaderText = "订单日期"
+        });
+        orderGridView.Columns.Add(new DataGridViewTextBoxColumn
+        {
+            DataPropertyName = "Customer",
+            Name = "Customer",
+            HeaderText = "客户"
+        });
+        orderGridView.Columns.Add(new DataGridViewTextBoxColumn
+        {
+            DataPropertyName = "TotalAmount",
+            Name = "TotalAmount",
+            HeaderText = "总金额"
+        });
 
         // 设置金额列的格式
         detailGridView.Columns["UnitPrice"].DefaultCellStyle.Format = "C2";
+        detailGridView.Columns["TotalAmount"].DefaultCellStyle.Format = "C2";
+        orderGridView.Columns["TotalAmount"].DefaultCellStyle.Format = "C2";
     }
 
     private void LoadData()

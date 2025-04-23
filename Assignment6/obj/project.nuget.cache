@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VnBfJJkDnck=",
+  "dgSpecHash": "+PxAeyhPdgc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Flash\\Desktop\\Assignment6\\OrderManagement.csproj",
+  "projectFilePath": "C:\\Users\\Flash\\Desktop\\homework\\Assignment6\\OrderManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Flash\\.nuget\\packages\\mstest.testframework\\3.1.1\\mstest.testframework.3.1.1.nupkg.sha512"
   ],

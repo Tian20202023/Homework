@@ -169,13 +169,39 @@ public class OrderForm : Form
         detailBindingSource.DataSource = order.Details;
         detailGridView.DataSource = detailBindingSource;
 
+        // 清除所有自动生成的列
+        detailGridView.AutoGenerateColumns = false;
+        detailGridView.Columns.Clear();
+
         // 配置订单明细表格列
-        detailGridView.Columns.Add("ProductName", "商品名称");
-        detailGridView.Columns.Add("Quantity", "数量");
-        detailGridView.Columns.Add("UnitPrice", "单价");
+        detailGridView.Columns.Add(new DataGridViewTextBoxColumn
+        {
+            DataPropertyName = "Product",
+            Name = "Product",
+            HeaderText = "商品"
+        });
+        detailGridView.Columns.Add(new DataGridViewTextBoxColumn
+        {
+            DataPropertyName = "Quantity",
+            Name = "Quantity",
+            HeaderText = "数量"
+        });
+        detailGridView.Columns.Add(new DataGridViewTextBoxColumn
+        {
+            DataPropertyName = "UnitPrice",
+            Name = "UnitPrice",
+            HeaderText = "单价"
+        });
+        detailGridView.Columns.Add(new DataGridViewTextBoxColumn
+        {
+            DataPropertyName = "TotalAmount",
+            Name = "TotalAmount",
+            HeaderText = "总金额"
+        });
 
         // 设置金额列的格式
         detailGridView.Columns["UnitPrice"].DefaultCellStyle.Format = "C2";
+        detailGridView.Columns["TotalAmount"].DefaultCellStyle.Format = "C2";
     }
 
     private void BtnAddDetail_Click(object sender, EventArgs e)
